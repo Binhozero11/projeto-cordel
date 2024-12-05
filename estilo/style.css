@@ -20,6 +20,13 @@ html, body {
     background-color: darkgray;
     min-height: 100vh;
     font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    height: 0;
+    overflow: hidden;
 }
 
 header {
@@ -47,6 +54,10 @@ header a, footer a {
 
 header a:hover, footer a:hover {
     text-decoration: underline;
+}
+
+main {
+    flex-grow: 1;
 }
 
 section {
