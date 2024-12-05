@@ -24,9 +24,8 @@ html, body {
     flex-direction: column;
 }
 
-div {
-    height: 0;
-    overflow: hidden;
+#loom-companion-mv3 {
+    display: none;
 }
 
 header {
